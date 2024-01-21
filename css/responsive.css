@@ -1,0 +1,169 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  /* CSS */
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar .n-icon {
+    text-align: center;
+  }
+  .navbar .form-select {
+    margin-left: 10px;
+  }
+  .navbar .n-icon {
+    text-align: center;
+  }
+  .navbar .nav-link {
+    margin: 10px 0px;
+    display: inline-block;
+    /* CSS */
+  }
+  .banner_text {
+    padding-top: 35px;
+  }
+  .banner-shap-8 {
+    width: 80%;
+    height: 80%;
+    top: 9%;
+    left: 50%;
+  }
+  .banner-shap-7 img {
+    display: none;
+  }
+  .slider-banner h1 {
+    font-size: 45px;
+  }
+
+  /*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  body {
+    background-color: red;
+  }
+  .navbar .form-select {
+    margin-left: 10px;
+  }
+  .navbar .n-icon {
+    text-align: center;
+  }
+  .navbar .nav-link {
+    margin: 10px 0px;
+    display: inline-block;
+    /* CSS */
+  }
+  .banner_text {
+    padding-top: 35px;
+  }
+  .banner-shap-8 {
+    width: 80%;
+    height: 80%;
+    top: 9%;
+    left: 50%;
+  }
+  .banner-shap-7 img {
+    display: none;
+  }
+  .slider-banner h1 {
+    font-size: 45px;
+  }
+  .tabil_from .table_pic .bg1 h2 {
+    margin-top: 40px;
+  }
+}
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .top-header .fon-mail {
+    display: none;
+  }
+  .navbar .n-icon {
+    text-align: center;
+  }
+  .navbar .form-select {
+    margin-left: 10px;
+    display: inline;
+  }
+  .navbar .nav-link:hover {
+    border-bottom: 2px solid #ff7c08;
+  }
+  .navbar .nav-link {
+    margin: 10px 0px;
+    display: inline-block;
+  }
+  .offer-sec h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .offer-sec .ofr-right i {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .banner-shap-8 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    top: 20%;
+    left: 20%;
+    z-index: 2;
+  }
+  .tabil_from .table_pic .bg1 {
+    width: 100%;
+    border-radius: 20px;
+  }
+  .order-section .img_part5 {
+    width: 33vh;
+  }
+  /* CSS */
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .top-header .fon-mail {
+    display: none;
+  }
+  .navbar .n-icon {
+    display: none;
+  }
+  .offer-sec h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .tabil_from .table_pic .bg1 {
+    width: 100%;
+    border-radius: 20px;
+  }
+}
